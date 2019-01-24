@@ -10,51 +10,51 @@
               <label for="input">Tipo de Identificación:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-dropdown id="dropdown" [options]="tipo_iden" [(ngModel)]="tipo_identificacion" [autoWidth]="false"></p-dropdown>
+              <p-dropdown id="dropdown" [options]="tipo_iden" [(ngModel)]="tipo_identificacionCliente" [autoWidth]="false" placeholder="Seleccionar Identificación"></p-dropdown>
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Identificación:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input  type="text"  [(ngModel)]="identificacionCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Apellidos:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text"  [(ngModel)]="apellidosCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Nombres:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="nombresCliente" pInputText />
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Género:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="genero" [autoWidth]="false"></p-dropdown>
+              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="generoCliente" [autoWidth]="false" placeholder="Seleccionar Género"></p-dropdown>
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Profesión:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="profesionCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">País de Nacimiento:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="paisNacimientoCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Ciudadanía:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="ciudadaniaCliente" pInputText />
             </div>
 
 
@@ -63,13 +63,13 @@
               <label for="calendar">Fecha Registro</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-calendar id="calendar"></p-calendar>
+              <p-calendar id="calendar" [(ngModel)]="fechaRegistroCliente"></p-calendar>
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="calendar">Fecha Nacimiento</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-calendar id="calendar"></p-calendar>
+              <p-calendar id="calendar"  [(ngModel)]="fechaNacimientoCliente"></p-calendar>
             </div>
 
           </div>
@@ -83,58 +83,58 @@
               <label for="input">País de Residencia:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="paisResidenciaCliente" pInputText />
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Provincia de Residencia:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="provinciaResidenciaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Ciudad de Residencia:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="ciudadResidenciaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Calle Principal:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="callePrincipalCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input"># Casa:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="numCasaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Calle Secundaria:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="calleSecundariaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Referencia:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="referenciaCliente" pInputText />
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Número Celular:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="numeroCelularCliente" pInputText />
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Número domicilio:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="numeroDomicilioCliente"  pInputText />
             </div>
 
           </div>
@@ -150,45 +150,45 @@
               <label for="input">Tipo de Referencia:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="tipoReferenciaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Cédula:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="cedulaReferencia" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Apellidos:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="apellidosReferencia" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Nombres:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="nombreReferencia" pInputText />
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">Género:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="genero" [autoWidth]="false"></p-dropdown>
+              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="generoReferencia" [autoWidth]="false" placeholder="Seleccionar Género"></p-dropdown>
             </div>
 
             <div class="ui-g-12 ui-md-4">
               <label for="input">País de Nacimiento:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="paisNacimientoReferencia" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Estado Civil:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text"  [(ngModel)]="estadoCivilReferencia" pInputText />
             </div>
 
           </div>
@@ -206,19 +206,19 @@
               <label for="input">Parentesco:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="parentescoCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Apellidos:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="apellidoParentesco" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Nombres:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="nombreParentesco" pInputText />
             </div>
 
 
@@ -226,13 +226,13 @@
               <label for="input">País de Nacimiento:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="paisNacimientoParentesco" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
-              <label for="calendar">Fecha Nacimiento</label>
+              <label for="calendar">Fecha Nacimiento:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-calendar id="calendar"></p-calendar>
+              <p-calendar id="calendar" [(ngModel)]="fechaNacimientoParentesco"></p-calendar>
             </div>
 
           </div>
@@ -246,19 +246,19 @@
               <label for="input">Actividad Económica:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="actividadEconomicaCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Ingresos Mensuales:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="ingresosMensualesCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="input">Egresos Mensuales:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="egresosMensualesCliente" pInputText />
             </div>
 
           </div>
@@ -272,22 +272,22 @@
               <label for="input">Cargo Político:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <input type="text" pInputText />
+              <input type="text" [(ngModel)]="cargoPoliticoCliente" pInputText />
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="calendar">Fecha de Inicio:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-calendar id="calendar"></p-calendar>
+              <p-calendar id="calendar" [(ngModel)]="fechaInicioPoliticoCliente" ></p-calendar>
             </div>
             <div class="ui-g-12 ui-md-4">
               <label for="calendar">Fecha Fin:</label>
             </div>
             <div class="ui-g-12 ui-md-8">
-              <p-calendar id="calendar"></p-calendar>
+              <p-calendar id="calendar" [(ngModel)]="fechaFinPoliticoCliente"></p-calendar>
             </div>
-            <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
-              <span class="ui-button-text ui-c">Ingresar</span>
+            <button pButton type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" label="Ingresar" icon="pi pi-save" (click)=" IngresoCliente()">
+              
             </button>
           </div>
 
