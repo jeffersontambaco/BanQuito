@@ -1,0 +1,297 @@
+<div class="ui-fluid">
+  <div class="ui-g">
+    <div class="ui-g-12">
+
+      <div class="card no-margin">
+        <h1>Datos Personales</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Tipo de Identificación:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-dropdown id="dropdown" [options]="tipo_iden" [(ngModel)]="tipo_identificacion" [autoWidth]="false"></p-dropdown>
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Identificación:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Apellidos:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Nombres:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Género:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="genero" [autoWidth]="false"></p-dropdown>
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Profesión:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">País de Nacimiento:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Ciudadanía:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="calendar">Fecha Registro</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-calendar id="calendar"></p-calendar>
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="calendar">Fecha Nacimiento</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-calendar id="calendar"></p-calendar>
+            </div>
+
+          </div>
+
+
+        </div>
+        <h1>Dirección de Residencia</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">País de Residencia:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Provincia de Residencia:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Ciudad de Residencia:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Calle Principal:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input"># Casa:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Calle Secundaria:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Referencia:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Número Celular:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Número domicilio:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+          </div>
+
+
+        </div>
+        <h1>Referencias</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Tipo de Referencia:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Cédula:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Apellidos:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Nombres:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Género:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-dropdown id="dropdown" [options]="gener" [(ngModel)]="genero" [autoWidth]="false"></p-dropdown>
+            </div>
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">País de Nacimiento:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Estado Civil:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <h1>Parentesco Con Los Empleados</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Parentesco:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Apellidos:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Nombres:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">País de Nacimiento:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="calendar">Fecha Nacimiento</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-calendar id="calendar"></p-calendar>
+            </div>
+
+          </div>
+        </div>
+        <h1>Datos Económicos</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Actividad Económica:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Ingresos Mensuales:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Egresos Mensuales:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+
+          </div>
+        </div>
+        <h1>Actividad Política</h1>
+        <div class="ui-g form-group">
+          <div class="ui-g-12 ui-md-6">
+
+
+            <div class="ui-g-12 ui-md-4">
+              <label for="input">Cargo Político:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <input type="text" pInputText />
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="calendar">Fecha de Inicio:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-calendar id="calendar"></p-calendar>
+            </div>
+            <div class="ui-g-12 ui-md-4">
+              <label for="calendar">Fecha Fin:</label>
+            </div>
+            <div class="ui-g-12 ui-md-8">
+              <p-calendar id="calendar"></p-calendar>
+            </div>
+            <button type="button" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+              <span class="ui-button-text ui-c">Ingresar</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
